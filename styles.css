@@ -1,0 +1,152 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box ;  font-family: sans-serif;
+}
+.nav1 {
+    width: 100%;
+    height: 50px;
+color: white;
+background: #222f3e;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.nav1 i {
+    font-size: 24px;
+    margin: 0 10px;
+    position: relative;
+    transition: background 0.3s;
+}
+
+.nav1 i :hover {
+    background: rgba(248, 142, 4, 0.411); /* transparent white background on hover */
+    border-radius: 8px; /* add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.nav1 a {
+    text-decoration: none ;
+color: white;
+padding: 5px 10px;
+background: #e67e22;
+transition: background 0.3s, transform 0.3s;
+}
+.nav1 a:hover {
+    background: #696966; /* change the background color on hover */
+    color: #333; /* change the text color on hover */
+    border-radius: 5px; /* add a rounded corner effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow effect on hover */
+  }
+
+.nav2{
+   width: 100%;
+   height: 80px; 
+   background: white;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: opx 70px;
+}
+.menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    transition: background 0.3s; /* add transition effect for background */
+  }
+  
+  .menu a:hover {
+    background: rgba(248, 142, 4, 0.411); /* transparent white background on hover */
+    border-radius: 8px; /* add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow */
+  }
+header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 300)),url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100% 100%;
+    
+}
+.text {
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text span{
+font-size: 1.2em;
+font-family: "Merienda", cursive;
+color: #fc861f;
+}
+.text p {
+  font-size: 22px;
+  margin: 40px, 0;
+  line-height: 30px;
+  padding: 20px
+}
+.text button {
+    border: none;
+    padding: 14px 22px;
+    background: #e67e22;
+    margin: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .text button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .text button:hover {
+    transform: scale(1.1); /* increase the size by 20% on hover */
+    background: #e67e22; /* change the background color on hover */
+  }
+  
+  .text button:hover a {
+    color: #fcfafa; /* change the text color on hover */
+  }
+.freelance-services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('https://eldamar-studio.com/wp-content/uploads/2022/06/100-Gradient-Backgrounds-Wavy-Gradient-8.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+  }
+  
+  .freelance-service {
+    width: 30%; /* adjust the width to your liking */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  .heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 23px;
+}
+  .freelance-service:hover {
+    transform: scale(1.1);
+  }
+  
+  .freelance-service h3 {
+    margin-top: 0;
+    color: #fa7705;
+  }
+  
+  .freelance-service p {
+    margin-bottom: 10px;
+    color: white;
+  }
